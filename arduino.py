@@ -10,8 +10,9 @@ else:
     import glob
     
 log = logging.getLogger(__name__)
-port = 
+
+def get_ports(
     
 class Arduino(object):
-  def __init__(self, baud=9600, port=None, timeout=2, sr=None):
+    def __init__(self, baud=9600, port=None, timeout=2, sr=None):
     
