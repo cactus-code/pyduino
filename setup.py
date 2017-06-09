@@ -10,4 +10,5 @@ setup(
   download_url = 'https://github.com/cactus-code/pyduino/archive/0.1.tar.gz',
   keywords = ['arduino','python3.5.2'],
   classifiers = [],
+  install_requires=['pyserial',],
 )
